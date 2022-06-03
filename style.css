@@ -1,0 +1,60 @@
+.container{
+    display: grid;
+    height: 100vh;
+    width: 80%;
+    grid-template-columns: 1.4fr  1fr ;
+    grid-template-rows: 1fr 1fr 1.5fr ;
+    grid-area:
+    "sidebar1 main sidebar2"
+    "sidebar3 sidebar4 sidebar5"
+    
+ 
+    
+    ;
+    background-color: aquamarine;
+
+}
+.h1{
+    text-align: center;
+}
+#Students Learn HTML{
+    grid-area:Students Learn HTML;
+
+}
+#BREAKING:Puppies are adorable{
+    grid-area:BREAKING:Puppies are adorable;
+
+}
+#CSS is Apparently a Thing{
+    grid-area:CSS is Apparently a Thing;
+
+}
+#Boy Like Turtle{
+    grid-area:Boy Like Turtle;
+
+} 
+#Politics{
+    grid-area:Politics;
+    background-color: darkblue;
+
+}
+#Technology{
+    grid-area: Technology;
+    background-color: chocolate;
+
+}
+#Locals{
+    grid-area: Locals;
+    background-color: beige;
+
+}
+#Opinion{
+    grid-area: Opinion;
+    background-color: aquamarine;
+
+}
+#Sport{
+    grid-area: Sport;
+    background-color: brown;
+
+}
